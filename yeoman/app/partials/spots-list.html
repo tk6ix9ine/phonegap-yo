@@ -1,0 +1,18 @@
+<div ng-repeat="spot in spots" class='spot' ng-click='selectSpot(spot)'>
+	<div>
+		<h4>
+			<span class='index'>{{$index + 1}}</span>
+			<span> {{spot.name}}</span>
+		</h4>
+		<div class='description'>{{spot.desc}}</div>
+	</div>
+	
+	<div class='row'>
+		<div class='col-xs-4'>
+			<img ng-src="{{spot.logo}}" alt="..." class="img-thumbnail">
+		</div>
+		<div class='col-xs-8'>
+			<span class="label label-success"><span class="glyphicon glyphicon-cutlery"></span> Pedido Online</span>
+		</div>
+	</div>
+</div>
