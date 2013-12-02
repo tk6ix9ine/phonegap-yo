@@ -1,4 +1,1 @@
-phonegap-yo
-===========
-
-Phonegap + Yeoman + Angular + Bootstrap
+https://floobits.com/r/felipecampos/phonegap-yo/
